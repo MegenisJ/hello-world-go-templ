@@ -1,4 +1,4 @@
-module github.com/a-h/templ-examples/hello-world
+module megenisj/hello-world 
 
 go 1.23.0
 
