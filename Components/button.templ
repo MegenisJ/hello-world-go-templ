@@ -2,7 +2,7 @@
 package components 
 
 templ Button(){
-
+    <div id="content">
         <button hx-post="/clicked"
             hx-trigger="click"
             hx-target="#parent-div"
@@ -10,4 +10,5 @@ templ Button(){
             >
             Clicked Me!
         </button>
+    </div>
 }
